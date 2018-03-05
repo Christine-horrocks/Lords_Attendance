@@ -14,4 +14,4 @@ To practice using the Parliment Digital Services APIs, create a program which ca
 
 ## Resources
 
-[UK Parliament API] (http://explore.data.parliament.uk/?learnmore=Lords%20Attendances)
+[UK Parliament API](http://explore.data.parliament.uk/?learnmore=Lords%20Attendances)
