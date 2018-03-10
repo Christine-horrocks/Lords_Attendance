@@ -6,5 +6,8 @@ describe LordsAttendanceManager do
     expect(subject.lord_finder('Lord Steel of Aikwood')).to eq('present')
   end
 
+  it 'requests the API' do
+    expect(subject.request_api).to eq('foo')
+  end
 
 end

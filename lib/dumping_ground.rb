@@ -1,4 +1,4 @@
-data = [{ "format" => "linked-data-api", "version" => "0.2", "result" : {"_about" : "http://eldaddp.azurewebsites.net/lordsattendances/725650.json", "definition" : "http://eldaddp.azurewebsites.net/meta/lordsattendances/_id.json", "extendedMetadataVersion" : "http://eldaddp.azurewebsites.net/lordsattendances/725650.json?_metadata=all", "primaryTopic" : {"_about" : "http://data.parliament.uk/resources/725650", "attendee" : [{"_about" : "http://data.parliament.uk/resources/725650/members/1", "attendance" : {"_about" : "http://data.parliament.uk/resources/725650/members/1/attendances/1", "memberAttendanceType" : {"_about" : "http://data.parliament.uk/resources/439802", "attendanceCode" : {"_value" : ""}
+{ "format" : "linked-data-api", "version" : "0.2", "result" : {"_about" : "http://eldaddp.azurewebsites.net/lordsattendances/725650.json", "definition" : "http://eldaddp.azurewebsites.net/meta/lordsattendances/_id.json", "extendedMetadataVersion" : "http://eldaddp.azurewebsites.net/lordsattendances/725650.json?_metadata=all", "primaryTopic" : {"_about" : "http://data.parliament.uk/resources/725650", "attendee" : [{"_about" : "http://data.parliament.uk/resources/725650/members/1", "attendance" : {"_about" : "http://data.parliament.uk/resources/725650/members/1/attendances/1", "memberAttendanceType" : {"_about" : "http://data.parliament.uk/resources/439802", "attendanceCode" : {"_value" : ""}
             , "attendanceType" : ""}
         }
         , "member" : [{"_about" : "http://data.parliament.uk/members/50", "fullName" : {"_value" : "Lord Chidgey"}
@@ -46,4 +46,4 @@ data = [{ "format" => "linked-data-api", "version" => "0.2", "result" : {"_about
           , "gender" : {"_value" : "Male"}
           , "label" : {"_value" : "Biography information for Lord Tebbit"}
         }
-        ]}]
+        ]}
