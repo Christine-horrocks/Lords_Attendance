@@ -7,7 +7,11 @@ describe LordsAttendanceManager do
   end
 
   it 'requests the API' do
-    expect(subject.request_api).to eq('foo')
+    expect {
+      subject.request_api
+    }.to change {
+      subject.data_packet
+    }
   end
 
 end
