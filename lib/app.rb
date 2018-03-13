@@ -12,7 +12,10 @@ class LordsAttendanceManager
   def request_api
     uri = URI("http://lda.data.parliament.uk/lordsattendances/725650.json")
     (Net::HTTP.get(uri))
-    @data_packet = uri
+  end
+
+  def clean_packet
+    @data_packet = JSON.parse(request_api).fetch("result")
   end
 
 
