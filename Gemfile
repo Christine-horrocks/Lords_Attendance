@@ -6,4 +6,5 @@ group :development, :test do
   gem 'rspec'
   gem 'simplecov', require: false, group: :test
   gem 'simplecov-console', require: false, group: :test
+  gem 'hashie'
 end
