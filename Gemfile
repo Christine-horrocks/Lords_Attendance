@@ -7,4 +7,5 @@ group :development, :test do
   gem 'simplecov', require: false, group: :test
   gem 'simplecov-console', require: false, group: :test
   gem 'hashie'
+  gem 'sqlite3'
 end
